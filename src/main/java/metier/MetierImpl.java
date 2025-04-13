@@ -6,8 +6,7 @@ import dao.IDao;
 public class MetierImpl implements IMetier
 {   private IDao dao;
 
-    public MetierImpl(DaoImpl d) {
-    }
+
 
     @Override
     public double calcul() {
